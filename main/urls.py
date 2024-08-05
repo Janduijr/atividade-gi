@@ -18,5 +18,5 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('nova-url/', views.nova_view, name='nova-view'),
+    path('jandui/', views.nova_view, name='jandui'),
 ]
