@@ -18,5 +18,10 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+feature-jandui
+    path('jandui/', views.nova_view, name='jandui'),
+]
+=======
     path('camille/', views.nova_view, name='camille'),
 ]
+develop
